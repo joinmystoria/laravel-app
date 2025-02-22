@@ -85,7 +85,7 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', '/cloudsql/oceanic-actor-451615-m9:us-central1:postgresql'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'laravel_db'),
             'username' => env('DB_USERNAME', 'postgres'),
