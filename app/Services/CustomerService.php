@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App\Models;  // ✅ Correct namespace (uppercase "A")
 
 use app\Models\Customer;
 
