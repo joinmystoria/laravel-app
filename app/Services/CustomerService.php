@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Models;  // ✅ Correct namespace (uppercase "A")
+namespace App\Services;
 
-use app\Models\Customer;
+use App\Models\Customer;
 
 class CustomerService {
 
