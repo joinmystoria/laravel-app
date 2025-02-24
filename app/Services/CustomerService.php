@@ -6,7 +6,7 @@ use App\Models\Customer;
 
 class CustomerService {
 
-    // Fetches all customers, latest first
+    // Fetches all customers, in desc order
     public function getAllCustomers() {
         return Customer::orderBy('id', 'desc')->get(); 
     }

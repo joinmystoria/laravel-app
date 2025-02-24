@@ -13,5 +13,6 @@ class Customer extends Model
 
     protected $fillable = ['first_name', 'last_name'];
 
-    public $timestamps = false; // Disable timestamps
+    public $timestamps = false;
+
 }
