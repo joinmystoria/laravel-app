@@ -11,6 +11,7 @@ return new class extends Migration {
             $table->id(); // Primary Key
             $table->string('first_name'); // First Name (should be here)
             $table->string('last_name'); // Last Name (should be here)
+            $table->timestamps();
         });
     }
 

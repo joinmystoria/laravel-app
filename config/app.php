@@ -156,7 +156,7 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         
-        // ✅ Make sure RouteServiceProvider is registered here
+        // Make sure RouteServiceProvider is registered here
         App\Providers\RouteServiceProvider::class,
     ],
 
