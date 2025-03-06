@@ -3,11 +3,11 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Customer;
+use App\Models\Name;
 
-class CustomerFactory extends Factory
+class NameFactory extends Factory
 {
-    protected $model = Customer::class;
+    protected $model = Name::class;
 
     public function definition()
     {

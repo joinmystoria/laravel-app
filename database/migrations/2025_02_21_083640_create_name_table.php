@@ -7,16 +7,16 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration {
     public function up()
     {
-        Schema::create('customers', function (Blueprint $table) {
+        Schema::create('name', function (Blueprint $table) {
             $table->id(); // Primary Key
-            $table->string('first_name'); // First Name (should be here)
-            $table->string('last_name'); // Last Name (should be here)
+            $table->string('first_name'); // First Name
+            $table->string('last_name'); // Last Name
             $table->timestamps();
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('customers'); // Drops table if rolled back
+        Schema::dropIfExists('name'); // Drops table if rolled back
     }
 };
