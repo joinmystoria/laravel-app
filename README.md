@@ -5,7 +5,10 @@ Note:
 - When cloning on local run the ff cmd:
 * composer install
 * php artisan key:generate
-* php artisan migrate
+* php artisan migrate 
+* php artisan migrate:reset (If you wanna delete previous migration)
+* php artisan migrate:status (Checking the list of migrations)
+
 
 - CMD for local run:
 * php artisan serve
